@@ -9,7 +9,7 @@ function Links() {
       href: 'https://github.com/7Jerrybf',
       icon: 'mdi:github',
       title: 'GitHub',
-      description: '開源專案與程式碼倉庫。看看我怎麼解決問題的。'
+      description: '開源專案與程式碼倉庫。'
     },
     {
       href: 'https://www.linkedin.com/in/jerry-chih-06374a1b4/',
@@ -24,10 +24,22 @@ function Links() {
       description: 'word 格式，隨時更新。'
     },
     {
-      href: 'mailto:loe15680@gmail.com',
-      icon: 'mdi:email-outline',
-      title: '聯繫我',
-      description: '有想法？聊聊吧。'
+      href: 'https://www.instagram.com/7bf.exe/',
+      icon: 'mdi:instagram',
+      title: 'Instagram',
+      description: '日常與生活碎片。'
+    },
+    {
+      href: 'https://open.spotify.com/user/316l5c7iwqqea6buobyhyor2wxxa?si=e26ab3f5e5cb4958',
+      icon: 'mdi:spotify',
+      title: 'Spotify',
+      description: '我的音樂品味。'
+    },
+    {
+      href: 'https://discord.com/users/7bf',
+      icon: 'mdi:discord',
+      title: 'Discord',
+      description: '我的 Discord。'
     }
   ]
 

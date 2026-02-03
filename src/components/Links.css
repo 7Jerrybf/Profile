@@ -4,7 +4,7 @@
 
 .links-grid {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1.2fr 1fr 0.9fr;
     gap: 24px;
 }
 
@@ -83,4 +83,16 @@
 .link-card:hover .arrow {
     color: var(--accent);
     transform: translate(4px, -4px);
+}
+
+@media (max-width: 968px) {
+    .links-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .links-grid {
+        grid-template-columns: 1fr;
+    }
 }

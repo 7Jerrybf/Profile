@@ -79,29 +79,9 @@ body::before {
         grid-template-columns: 1fr !important;
         gap: 40px;
     }
-
-    .stats-grid {
-        grid-template-columns: 1fr 1fr !important;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr 1fr !important;
-    }
-
-    .links-grid {
-        grid-template-columns: 1fr !important;
-    }
 }
 
 @media (max-width: 640px) {
-    .stats-grid {
-        grid-template-columns: 1fr !important;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr !important;
-    }
-
     .nav-links {
         display: none !important;
     }

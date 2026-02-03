@@ -1,8 +1,7 @@
 import Navbar from './components/Navbar'
 import Orbs from './components/Orbs'
 import Hero from './components/Hero'
-import Stats from './components/Stats'
-import Skills from './components/Skills'
+import About from './components/About'
 import Links from './components/Links'
 import Footer from './components/Footer'
 
@@ -14,8 +13,7 @@ function App() {
       <main>
         <div className="container">
           <Hero />
-          <Stats />
-          <Skills />
+          <About />
           <Links />
         </div>
       </main>

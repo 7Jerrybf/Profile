@@ -3,9 +3,9 @@ import './Terminal.css'
 function Terminal() {
   const lines = [
     { prompt: true, text: 'whoami' },
-    { prompt: false, text: 'software_engineer' },
+    { prompt: false, text: 'backend_developer' },
     { prompt: true, text: 'cat interests.txt' },
-    { prompt: false, text: 'clean_code, system_design' },
+    { prompt: false, text: 'python, sql, ai_tools' },
     { prompt: true, text: '', cursor: true }
   ]
 
