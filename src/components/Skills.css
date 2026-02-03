@@ -1,0 +1,42 @@
+.skills-section {
+    padding: 80px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.2fr;
+    gap: 20px;
+}
+
+.skill-tag {
+    background: var(--bg-secondary);
+    border: 1px solid #222;
+    padding: 16px 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: default;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.skill-tag.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.skill-tag:hover {
+    border-color: var(--accent);
+    transform: scale(1.02);
+}
+
+.skill-tag.visible:hover {
+    transform: scale(1.02);
+}
+
+.skill-tag .iconify {
+    font-size: 1.5rem;
+    color: var(--accent);
+}
