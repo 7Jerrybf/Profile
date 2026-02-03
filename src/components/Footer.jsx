@@ -11,7 +11,7 @@ function Footer() {
     <footer id="contact">
       <div className="container">
         <div className="footer-content">
-          <p className="footer-text">用熱情與程式碼打造 © 2024</p>
+          <p className="footer-text">用熱情與程式碼打造 © 2026</p>
           <div className="social-links">
             {socialLinks.map((link, index) => (
               <a key={index} href={link.href} target="_blank" rel="noopener noreferrer">

@@ -12,19 +12,19 @@ function Links() {
       description: '開源專案與程式碼倉庫。看看我怎麼解決問題的。'
     },
     {
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://www.linkedin.com/in/jerry-chih-06374a1b4/',
       icon: 'mdi:linkedin',
       title: 'LinkedIn',
       description: '完整履歷與職涯經歷。'
     },
     {
-      href: '/resume.pdf',
+      href: 'https://docs.google.com/document/d/e/2PACX-1vTE5dVTYjDjgylPM4G97T5QCGxBZ8_B6Etw-sf6KcRE7KMWsEuWNW7zp3wxw5fzHQ/pub',
       icon: 'mdi:file-document-outline',
-      title: '履歷下載',
-      description: 'PDF 格式，隨時更新。'
+      title: '線上履歷',
+      description: 'word 格式，隨時更新。'
     },
     {
-      href: 'mailto:your@email.com',
+      href: 'mailto:loe15680@gmail.com',
       icon: 'mdi:email-outline',
       title: '聯繫我',
       description: '有想法？聊聊吧。'

@@ -5,7 +5,7 @@ function Terminal() {
     { prompt: true, text: 'whoami' },
     { prompt: false, text: 'software_engineer' },
     { prompt: true, text: 'cat interests.txt' },
-    { prompt: false, text: 'clean_code, system_design, open_source' },
+    { prompt: false, text: 'clean_code, system_design' },
     { prompt: true, text: '', cursor: true }
   ]
 
